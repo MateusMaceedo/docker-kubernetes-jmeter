@@ -15,7 +15,7 @@ Esse projeto visa estabelecer uma carga de trabalho usando Jmeter no Docker, por
 ## Installation
 Using helm repo:
 ```
-helm repo add k8s-jmeter https://kaarolch.github.io/kubernetes-jmeter/charts/
+helm repo add k8s-jmeter https://MateusMaceedo.github.io/docker-kubernetes-jmeter/charts/
 ```
 
 Old way: Using local copy of git repository:
