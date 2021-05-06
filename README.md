@@ -6,6 +6,8 @@
 
 Esse projeto visa estabelecer uma carga de trabalho usando Jmeter no Docker, por meio de comandos manipulando a carga e o stress do app. Entretando para conseguir se adequar o contexto dessa estrutura deve-se subir as imagens da maquina virtual e inicilizar a pilha no Jmeter, utilizando assim o luster Kubernetes, usando como gerenciador de pacotes Helm.
 
+Será alterado conforme a minha utilização na estação de trabalho, se caso quise utilizar os commands lines me mande um E-mail para: *mateusouza2014@live.com*
+
 - Jmeter master
 - Jmeter slaves
 - InfluxDB instance with graphite interface as a jmeter backend
@@ -20,7 +22,7 @@ helm repo add k8s-jmeter https://MateusMaceedo.github.io/docker-kubernetes-jmete
 
 Old way: Using local copy of git repository:
 ```
-git clone git@github.com:kaarolch/kubernetes-jmeter.git
+git clone git@github.com:MateusMaceedo/docker-kubernetes-jmeter.git
 cd kubernetes-jmeter/charts/jmeter
 helm install -n test ./
 ```
