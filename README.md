@@ -2,7 +2,7 @@
 <img src="http://home.apache.org/~fschumacher/jmeter2.svg" width="636" height="216">
 </h1>
 
-## Estação de trabalho com Jmeter Kubernetes
+## Estação de trabalho com Jmeter e Kubernetes em Contêiners Docker 
 
 Esse projeto visa estabelecer uma carga de trabalho usando Jmeter no Docker, por meio de comandos manipulando a carga e o stress do app. Entretando para conseguir se adequar o contexto dessa estrutura deve-se subir as imagens da maquina virtual e inicilizar a pilha no Jmeter, utilizando assim o luster Kubernetes, usando como gerenciador de pacotes Helm.
 
