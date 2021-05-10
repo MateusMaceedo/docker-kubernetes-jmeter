@@ -75,3 +75,9 @@ kubectl create configmap one-test --from-file=./examples/simple_test.jmx
 Deploy test with auto run, if the `config.master.oneShotTest` would be skipped the test need to be trigger as in manual run step.
 
 Creditos ao projeto base: https://github.com/kaarolch/kubernetes-jmeter/edit/master/README.md
+
+## 👨🏻‍🚀 Sobre mim
+<a href="https://www.linkedin.com/in/mateus-macedo-937a32163/">
+ <img style="border-radius:50%" width="100px; "src="https://avatars.githubusercontent.com/u/63172367?s=460&u=11fd26ea8a7f5663d7707d7ef254e4f8bfca1b05&v=4"/>
+ <p>Mateus Macedo</p>
+</a>
